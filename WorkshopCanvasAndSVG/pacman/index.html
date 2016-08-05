@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pacman</title>
+    <script src="./game.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <canvas id="pacman-canvas" width="1200" height="300" style="border:1px solid #000000;"></canvas>
+        <canvas id="maze-canvas" width="1200" height="300" style="border:1px solid #000000;"></canvas>
+    </div>
+    <script>
+        var game = createGame("#pacman-canvas", "#maze-canvas");
+        game.start();
+    </script>
+</body>
+
+</html>
